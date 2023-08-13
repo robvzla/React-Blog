@@ -27,8 +27,9 @@ const LoginPage = () => {
             {error && <p className="error">{error}</p>}
             <input placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)}/>
             <input type="password" placeholder="Your password" value={password} onChange={e => setPassword(e.target.value)}/>
-            <button onClick={logIn}>Log In</button>
             <Link to="/create-account">Don't have an account? Create one here</Link>
+            <br></br>
+            <button onClick={logIn}>Log In</button>
         </>
     );
 }

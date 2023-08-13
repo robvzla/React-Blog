@@ -1,77 +1,5 @@
 const articles = [
     {
-        name: 'learn-react',
-        title: 'The Fastest Way to Learn React',
-        content: [
-            `Welcome! Today we're going to be talking about the fastest way to
-            learn React. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet!.`,
-        ]
-    },    {
-        name: 'learn-node',
-        title: 'How to Build a Node Server in 10 Minutes',
-        content: [
-            `In this article, we're going to be talking looking at a very quick way
-            to set up a Node.js server. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
-    },     {
-        name: 'mongodb',
-        title: 'Learn MongoDB',
-        content: [
-            `Today is the day I talk about something which scares most people: resumes.
-            In reality, I'm not sure why people have such a hard time with proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-            `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-            `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-        ]
-    },     {
         name: 'mongodb-mysql',
         title: 'MongoDB vs. MySQL: A Deeper Dive into the Database Duel',
         content: [
@@ -114,7 +42,41 @@ const articles = [
             environments. As the needs of your project evolve, the right decision might just reveal itself – a decision that 
             ensures your data management journey is as smooth as it is impactful.`,
         ]
-    }, 
+    },     {
+        name: 'serverless-computing',
+        title: "Unveiling Serverless Computing: Code's New Freedom",
+        content: [
+            `In the vast realm of modern technology, a paradigm shift is underway – one that's altering 
+            the way we approach computing and development. Enter "Serverless Computing," a buzzworthy 
+            concept that's making waves across industries. So, what exactly is this serverless magic, 
+            and how can it transform the way we code?`,
+            `At its core, serverless computing liberates developers from the shackles of server management. 
+            Imagine a world where you write code without fretting over provisioning servers, monitoring 
+            performance, or handling scaling headaches. This is the essence of serverless – focusing solely 
+            on your code's logic and functionality, while the infrastructure intricacies fade into the background.`,
+            `The heart of serverless lies in "Functions as a Service" (FaaS) and "Backend as a Service" (BaaS). With 
+            FaaS, developers craft self-contained, reusable functions that respond to specific events or triggers. 
+            These functions execute only when needed, and the cloud provider dynamically manages their scaling. BaaS, 
+            on the other hand, abstracts away backend complexities, offering pre-built functionalities for tasks like 
+            authentication, databases, and storage.`,
+            `The benefits are aplenty. First, serverless brings forth a level of cost-efficiency that's hard to beat. 
+            You pay only for the compute time your functions use – no idle servers guzzling resources. This makes it an 
+            attractive option for startups and businesses looking to optimize expenses.`,
+            `Flexibility is another jewel in serverless' crown. It's an excellent fit for event-driven applications, 
+            where functions respond to real-time triggers. Need to process data from IoT devices or react to user 
+            actions? Serverless can handle the load effortlessly.`,
+            `However, no technology is without its quirks. Cold start latency, where a function takes a bit longer to 
+            execute after being inactive, can pose a minor hiccup. Moreover, entrusting your code to a specific cloud 
+            provider might raise concerns about vendor lock-in.`,
+            `Serverless computing is a frontier ripe for exploration, with platforms like AWS Lambda, Azure Functions, 
+            and Google Cloud Functions leading the way. As this approach gains momentum, it's important to keep an eye 
+            on best practices for optimization, security, and cost management.`,
+            `In essence, serverless computing empowers developers to embrace a code-centric mindset, unburdened by 
+            infrastructure headaches. It's an evolution that aligns with the rapid pace of modern development, promising 
+            efficiency, scalability, and faster time-to-market. As we venture into this brave new world, the future of 
+            serverless is poised to rewrite the rules of coding and redefine the way we bring digital dreams to life.`,
+        ]
+    },  
 ];
 
 export default articles;

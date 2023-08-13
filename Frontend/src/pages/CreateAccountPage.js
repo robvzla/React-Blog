@@ -33,8 +33,9 @@ const CreateAccountPage = () => {
             <input placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)}/>
             <input type="password" placeholder="Your password" value={password} onChange={e => setPassword(e.target.value)}/>
             <input type="password" placeholder="Re-enter your password" value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)}/>
-            <button onClick={createAccount}>Create Account</button>
             <Link to="/login">Already have an account? Log in here</Link>
+            <br></br>
+            <button onClick={createAccount}>Create Account</button>
         </>
     );
 }
