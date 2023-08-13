@@ -1,16 +1,32 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root{
+  --hue-color: 210;
+  --body-font: 'Poppins', sans-serif;
+  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+}
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  background-color: white;
+  color: black;
+  font-family: var(--body-font);
 }
 
 button {
   padding: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  background-color: black;
+  background: hsl(var(--hue-color), 69%, 61%);
   color: white;
+  font-weight: bold;
   border-radius: 8px;
   cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--first-color-alt);
 }
 
 h3, h4 {
@@ -18,12 +34,12 @@ h3, h4 {
 }
 
 nav {
-  border-bottom: 4px solid black;
+  border-bottom: 2px solid hsl(var(--hue-color), 69%, 61%);
   text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background-color: #FFF;
 }
 
 nav ul {
@@ -46,8 +62,7 @@ nav a {
 }
 
 nav a:hover {
-  background: black;
-  color: white;
+  color: hsl(var(--hue-color), 69%, 61%);
 }
 
 #page-body {
@@ -64,11 +79,11 @@ nav a:hover {
 
 .article-list-item p {
   padding-bottom: 32px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid hsl(var(--hue-color), 69%, 61%);
 }
 
 #add-comment-form {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid hsl(var(--hue-color), 69%, 61%);
   padding: 16px;
 }
 
@@ -81,9 +96,8 @@ input, textarea {
   width: 300px;
   padding: 8px;
   border-radius: 8px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-bottom: 16px;
 }
 
@@ -103,7 +117,7 @@ input, textarea {
 }
 
 .comment {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid hsl(var(--hue-color), 69%, 61%);
   padding: 16px;
 }
 
