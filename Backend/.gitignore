@@ -27,3 +27,4 @@ credentials.json
 
 build
 .env
+prod-env.yaml
